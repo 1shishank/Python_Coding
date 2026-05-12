@@ -11,3 +11,12 @@ print(myset)
 
 thisset.update(myset)
 print(thisset)
+
+# in set items are unchangagble but you can add or remove
+# so pop remove update etc just like list work here
+
+print("Adding Sets")
+print(myset)
+print(thisset)
+set3 = myset.union(thisset)
+print(set3)
