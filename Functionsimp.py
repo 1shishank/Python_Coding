@@ -59,3 +59,6 @@ def myfunction():
   return "Hello Sally"
 
 print(myfunction())
+
+#You can paas a fucntion through multiple decorators or you can also add an argument
+# to a decorator
