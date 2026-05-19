@@ -36,4 +36,12 @@ except:
   print("Something went wrong")
 finally:
   print("The 'try except' is finished")
-  
+
+#As a Python developer you can choose to throw an exception if a condition occurs.
+
+#To throw (or raise) an exception, use the raise keyword.
+
+y = -1
+
+if y < 0:
+  raise Exception("Sorry, no numbers below zero")
